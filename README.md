@@ -5,7 +5,7 @@ Intended to be an non-comprehensive collection of notes, code and thoughts as I 
 
 - Notes in Markdown
 - Non comprehensive, not intended as a guide
-- Future me: be king
+- Future me: be kind
 
 ## Features
 
