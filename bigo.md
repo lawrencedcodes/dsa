@@ -19,4 +19,11 @@ Also see: Big Theta, Big Omega, asymptotic upper bound
 - Drop the less significant terms
 - We're typically interested in the behavior as the input set gets very large (scales)
 - Another way to think about it is usually, we're talking about the "worst case"
- 
+
+### Strings
+
+- Know comparison, joining, splitting, searching, replaing, parsing
+- Know how they're represented in memory
+- Know String class and StringBuilder class
+- Know charAt, compareTo, concat, contains, endsWith, indexOf, lastIndexOf, length, replae, split, startsWith, substring, toCharArray, toLowerCase, trim
+- Know apppend, charAt, delete, deleteCharAt, insert, replace, toString 
