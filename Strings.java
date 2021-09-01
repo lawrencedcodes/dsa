@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Strings{
 
-    void runStrings () {
+    public static void main (String[] args) {
 
         String greeting = "hello";
         String name = "Lawrence";
         char[] nameChars = name.toCharArray();
         System.out.println(nameChars);
-        System.out.println("greeting and name are the same or not: "  + (greeting == name));
+        System.out.println("greeting and name are the same or not: "  + (greeting.compareTo(name)));
         String together = greeting + " " + name;
         String smashed = greeting.concat(name);
         System.out.println(greeting + " and " + together);
