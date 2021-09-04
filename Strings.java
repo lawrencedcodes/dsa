@@ -4,6 +4,16 @@ public class Strings{
 
     public static void main (String[] args) {
 
+        byte[] byteArray = {115,66,33,2,1,7,9,76,4,23};
+        String stringFromBytes = new String(byteArray);
+
+        char[] charArray = {'a', 'c', 'd', 'f'};
+        String stringFromChar = new String(charArray);
+
+        StringBuffer someBuffer = new StringBuffer("Hello Buffer");
+        String stringFromBuffer = new String(someBuffer);
+        System.out.println(stringFromBytes + stringFromChar + stringFromBuffer);
+
         String greeting = "hello";
         String name = "Lawrence";
         char[] nameChars = name.toCharArray();
