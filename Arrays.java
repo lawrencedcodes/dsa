@@ -7,10 +7,17 @@ public class Arrays {
 		for (int i = 0; i<myArray.length; i++) {
 			int currentNum = myArray[i];
 			System.out.println(currentNum);
-			if(currentNum == 76) { 
+			if(currentNum == 76) {
 				System.out.println("We found the number 76 at index" +  i);
 			}
 		}
+		for (int item: myArray) {
+			System.out.println(item);
+		}
+
+		int[][] twoDeeArray = { {3,4,5}, {7,8,9}, {10,11,12} };
+		int middle= twoDeeArray[1][1];
+		System.out.println(middle);
 
 		List<String> myList = new ArrayList<>();
 		myList.add("Lawrence");

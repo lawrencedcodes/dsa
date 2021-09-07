@@ -16,6 +16,8 @@ public class Strings{
 
         String greeting = "hello";
         String name = "Lawrence";
+        String nameInitial = name.substring(0,1);
+        System.out.println(nameInitial);
         char[] nameChars = name.toCharArray();
         System.out.println(nameChars);
         System.out.println("greeting and name are the same or not: "  + (greeting.compareTo(name)));
